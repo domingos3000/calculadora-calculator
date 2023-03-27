@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculadora</title>
+		
+		<link rel="stylesheet" href="./css/boot.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		
+		
+		<div class="container">
+			<div class="calculator">
+				<div class="calculator__display">
+					<div class="display__resume"></div>
+					<div class="display__current"></div>
+				</div>
+				
+				<div class="calculator__button">
+					
+					<!-- Line one -->
+					
+					<div class="button bg--one" data-value="ce">
+						<img src="./assets/ce.svg" alt="" class="button__icon">
+					</div>
+					
+					<div class="button bg--one" data-value="c">
+						<img src="./assets/c.svg" alt="" class="button__icon">
+					</div>
+					
+					<div class="button bg--one" data-value="delete">
+						<img src="./assets/backspace-outline.svg" alt="" class="button__icon" width="24px">
+					</div>
+					
+					<div class="button bg--one" data-value="/">
+						<img src="./assets/divide.svg" alt="" class="button__icon">
+					</div>
+					
+					<!-- Line two -->
+					
+					<div class="button" data-value="7">7</div>
+					<div class="button" data-value="8">8</div>
+					<div class="button" data-value="9">9</div>
+					
+					<div class="button bg--one" data-value="*">
+						<img src="./assets/x.svg" alt="" class="button__icon">
+					</div>
+					
+					<!-- Line three -->
+					
+					<div class="button" data-value="4">4</div>
+					<div class="button" data-value="5">5</div>
+					<div class="button" data-value="6">6</div>
+					
+					<div class="button bg--one" data-value="-">
+						<img src="./assets/minus.svg" alt="" class="button__icon">
+					</div>
+					
+					<!-- Line four -->
+					
+					<div class="button" data-value="1">1</div>
+					<div class="button" data-value="2">2</div>
+					<div class="button" data-value="3">3</div>
+					
+					<div class="button bg--one" data-value="+">
+						<img src="./assets/plus.svg" alt="" class="button__icon">
+					</div>
+					
+					<!-- Line five -->
+					
+					<div class="button bg--three">
+						<img src="./assets/plus-minus.svg" alt="" class="button__icon">
+					</div>
+					
+					<div class="button" data-value="0">0</div>
+					
+					<div class="button bg--three" data-value=".">
+						<img src="./assets/point.svg" alt="" class="button__icon">
+					</div>
+					
+					<div class="button bg--two" onclick="calculator()">
+						<img src="./assets/equals.svg" alt="" class="button__icon">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
